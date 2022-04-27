@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1651064112 source:d:\tsp\programacion 1\clases\clase string\string2022\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+

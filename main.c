@@ -14,26 +14,27 @@ int main()
     char palabra2[] = "Aabriel";
     int val=0;
 
-    val = cargarCaracteres(palabra, 30,val);
+    //val = cargarCaracteres(palabra, 30,val);
     printf("\n");
     for(int i=0; i<val;i++)
     {
         printf("| %c |", palabra[i]);
     }
 
-    char caracter;
+    /*char caracter;
     puts("ingrese un caracter");
     caracter=getchar();
-    putchar(caracter);
+    putchar(caracter);*/
 
 
-    char destino [25];
-    char espacio [] = " ", apellido [] = "Garcia", carrera [] = "Programacion";
+    char cadenaFinal [50];
+    char espacio [] = " ", apellido [] = "Garcia", carrera [] = "Programacion UTN";
 
-    strcat (destino, carrera);
-    strcat (destino, espacio);
-    strcat (destino, apellido);
-    printf ("\n%s\n", destino);
+    strcpy(cadenaFinal, carrera);
+    strcat(cadenaFinal, espacio);
+    strcat (cadenaFinal, apellido);
+
+    printf ("\n%s\n", cadenaFinal);
     system("pause");
 
     char str1 [] = "Los representantes estan", str2 [] = "re", str3 [] = "repu" , *substr;
